@@ -1,7 +1,7 @@
-/* 1.Напишите функцию, которая
-•	называется IsPalindrom
-•	возвращает bool
-•	принимает параметр типа string и возвращает, является ли переданная строка палиндромом
+/* 1.РќР°РїРёС€РёС‚Рµ С„СѓРЅРєС†РёСЋ, РєРѕС‚РѕСЂР°СЏ
+вЂў	РЅР°Р·С‹РІР°РµС‚СЃСЏ IsPalindrom
+вЂў	РІРѕР·РІСЂР°С‰Р°РµС‚ bool
+вЂў	РїСЂРёРЅРёРјР°РµС‚ РїР°СЂР°РјРµС‚СЂ С‚РёРїР° string Рё РІРѕР·РІСЂР°С‰Р°РµС‚, СЏРІР»СЏРµС‚СЃСЏ Р»Рё РїРµСЂРµРґР°РЅРЅР°СЏ СЃС‚СЂРѕРєР° РїР°Р»РёРЅРґСЂРѕРјРѕРј
 */
 #include <iostream>
 #include<string>
@@ -20,16 +20,16 @@ int main()
 	setlocale(0, "ru");
 	string word;
 
-		cout << "введите слово (для выхода введите '1'):" << endl;
+		cout << "enter a word (to exit enter '1'):" << endl;
 		cin >> word;
 		while (word != "1") {
 
 			if (IsPalindrom(word)) 
-				cout << "слово является палиндромом" << endl;
+				cout << "the word is a palindrome" << endl;
 			else 
-				cout << "слово не является палиндромом" << endl;
+				cout << "the word isn't a palindrome" << endl;
 
-			cout << "введите слово (для выхода введите '1'): ";
+			cout << "enter a word (to exit enter '1'): ";
 			cin >> word;
 		}
 
