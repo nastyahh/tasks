@@ -1,6 +1,6 @@
 /*
-3.Реализуйте функцию void Reverse(vector& v), 
-которая переставляет элементы вектора в обратном порядке.*/
+3.Р РµР°Р»РёР·СѓР№С‚Рµ С„СѓРЅРєС†РёСЋ void Reverse(vector& v), 
+РєРѕС‚РѕСЂР°СЏ РїРµСЂРµСЃС‚Р°РІР»СЏРµС‚ СЌР»РµРјРµРЅС‚С‹ РІРµРєС‚РѕСЂР° РІ РѕР±СЂР°С‚РЅРѕРј РїРѕСЂСЏРґРєРµ.*/
 
 #include <iostream>
 #include <vector>
@@ -14,7 +14,7 @@ void Print(const vector<int>& v)
 	}
 	cout << endl;
 }
-void Reverse(vector<int>& v)
+void Reverse(const vector<int>& v)
 {
 	int length = v.size();
 	for (int i = 0; i < length / 2; i++)
