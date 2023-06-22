@@ -6,7 +6,7 @@
 #include <vector>
 using namespace std;
 
-void Print(const vector<int>& v)
+void Print(vector<int>& v)
 {
 	for (int n : v)
 	{
@@ -14,7 +14,7 @@ void Print(const vector<int>& v)
 	}
 	cout << endl;
 }
-void Reverse(const vector<int>& v)
+void Reverse(vector<int>& v)
 {
 	int length = v.size();
 	for (int i = 0; i < length / 2; i++)
